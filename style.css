@@ -1,20 +1,73 @@
-body{
-background-color: lightgreen;
-
-
-}
-.logo{
-margin: 0px;
-
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header{
-    display: flex;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    text-align: center;
+    padding: 20px;
 }
 
-.botao{
-user-select: text;
-text-decoration: none;
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
 
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.introducao, .explicacao, .livros article {
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.botao, .voltar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.botao:hover, .voltar:hover {
+    background-color: #004c99;
+}
+
+.livros article {
+    text-align: left;
+}
+
+.livros a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.livros a:hover {
+    text-decoration: underline;
 }
